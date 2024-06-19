@@ -1,7 +1,9 @@
 package entity;
 
+import abstraction.Nature;
+
 // Класс entity.Plant (Растение)
-public class Plant {
+public class Plant implements Nature {
     private Location location;
 
     public Plant(Location location) {

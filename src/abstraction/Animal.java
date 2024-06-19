@@ -6,7 +6,7 @@ import lombok.AllArgsConstructor;
 
 // Абстрактный класс abstractions.Animal
 @AllArgsConstructor
-public abstract class Animal {
+public abstract class Animal implements Nature{
     protected Location location;
     protected int weight;
     protected int maxCount;
