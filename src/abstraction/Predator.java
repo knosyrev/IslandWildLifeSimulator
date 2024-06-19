@@ -1,12 +1,13 @@
-import com.fasterxml.jackson.annotation.JsonAnyGetter;
-import lombok.Getter;
+package abstraction;
+
+import entity.Location;
 
 import java.util.List;
 
-// Класс Predator (Хищник)
+// Класс abstraction.Predator (Хищник)
 public abstract class Predator extends Animal {
-    public Predator(Location location, int weight, int maxCount, int speed, double foodNeed, int catchChance) {
-        super(location, weight, maxCount, speed, foodNeed, true, catchChance);
+    public Predator(Location location, int weight, int maxCount, int speed, double foodNeed) {
+        super(location, weight, maxCount, speed, foodNeed);
     }
 
     @Override

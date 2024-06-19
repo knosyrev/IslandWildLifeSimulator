@@ -1,7 +1,11 @@
+package entity;
+
+import abstraction.Animal;
+
 import java.util.ArrayList;
 import java.util.List;
 
-// Класс Location (Локация)
+// Класс entity.Location (Локация)
 public class Location {
     private List<Animal> animals;
     private List<Plant> plants;

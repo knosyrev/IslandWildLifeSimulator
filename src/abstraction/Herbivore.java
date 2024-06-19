@@ -1,6 +1,11 @@
+package abstraction;
+
+import entity.Location;
+import entity.Plant;
+
 import java.util.List;
 
-// Класс Herbivore (Травоядное)
+// Класс abstractions.Herbivore (Травоядное)
 public abstract class Herbivore extends Animal {
     public Herbivore(Location location, int weight, int maxCount, int speed, double foodNeed) {
         super(location, weight, maxCount, speed, foodNeed);

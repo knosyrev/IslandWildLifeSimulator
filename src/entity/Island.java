@@ -1,3 +1,5 @@
+package entity;
+
 import services.initialization.IslandCreator;
 
 public class Island {

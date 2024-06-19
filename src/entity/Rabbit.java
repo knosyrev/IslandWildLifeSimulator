@@ -1,3 +1,7 @@
+package entity;
+
+import abstraction.Herbivore;
+
 public class Rabbit extends Herbivore {
     public Rabbit(Location location) {
         super(location, 2, 150, 2, 0.45);

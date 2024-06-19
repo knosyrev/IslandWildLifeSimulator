@@ -18,5 +18,4 @@ public enum LifeType {
     CATERPILLAR,
     PLANT
 
-
 }

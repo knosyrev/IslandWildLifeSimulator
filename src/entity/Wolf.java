@@ -1,3 +1,7 @@
+package entity;
+
+import abstraction.Predator;
+
 // Классы конкретных животных
 public class Wolf extends Predator {
     public Wolf(Location location) {

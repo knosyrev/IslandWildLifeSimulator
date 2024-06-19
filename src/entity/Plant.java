@@ -1,4 +1,6 @@
-// Класс Plant (Растение)
+package entity;
+
+// Класс entity.Plant (Растение)
 public class Plant {
     private Location location;
 
