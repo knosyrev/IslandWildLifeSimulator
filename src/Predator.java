@@ -6,7 +6,7 @@ import java.util.List;
 // Класс Predator (Хищник)
 public abstract class Predator extends Animal {
     public Predator(Location location, int weight, int maxCount, int speed, double foodNeed, int catchChance) {
-        super(location, weight, maxCount, speed, foodNeed, catchChance);
+        super(location, weight, maxCount, speed, foodNeed, true, catchChance);
     }
 
     @Override
