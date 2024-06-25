@@ -11,7 +11,7 @@ public class Wolf extends Predator {
     @Override
     public void move() {
         // Волк может передвигаться на 3 клетки
-        location = location.getRandomNeighbor();
+//        location = location.getRandomNeighbor();
     }
 
     @Override

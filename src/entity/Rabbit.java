@@ -10,7 +10,7 @@ public class Rabbit extends Herbivore {
     @Override
     public void move() {
         // Кролик может передвигаться на 2 клетки
-        location = location.getRandomNeighbor();
+//        location = location.getRandomNeighbor();
     }
 
     @Override

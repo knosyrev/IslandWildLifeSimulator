@@ -1,9 +1,9 @@
 package entity;
 
-import abstraction.Nature;
+import abstraction.LifeUnit;
 
 // Класс entity.Plant (Растение)
-public class Plant implements Nature {
+public class Plant implements LifeUnit {
     private Location location;
 
     public Plant(Location location) {
@@ -19,6 +19,6 @@ public class Plant implements Nature {
 
     public void die() {
         // Растение умирает
-        location.setPlant(null);
+        location.setLifeUnit(null);
     }
 }

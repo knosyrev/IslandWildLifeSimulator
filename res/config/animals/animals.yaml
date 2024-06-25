@@ -1,5 +1,5 @@
 animals:
-  - type: entity.Wolf
+  - type: Wolf
     weight: 50
     max_count: 30
     speed: 3
